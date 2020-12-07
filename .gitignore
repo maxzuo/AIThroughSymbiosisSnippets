@@ -1,0 +1,24 @@
+# Environment
+.vscode
+__pycache__/
+venv/
+u_venv36/
+
+
+# Training data
+*.mp4
+*.gif
+*.jpg
+*.png
+*.tar*
+*.zip
+
+# Misc
+setup.md
+*.pdf
+
+# Not ready yet
+AlphaPose/
+Library/
+gan_hands/
+info/
