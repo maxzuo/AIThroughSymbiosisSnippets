@@ -4,6 +4,9 @@ __pycache__/
 venv/
 u_venv36/
 
+# Models
+*.caffemodel
+
 
 # Training data
 *.mp4

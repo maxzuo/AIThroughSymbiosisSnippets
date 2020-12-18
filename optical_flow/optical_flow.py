@@ -35,7 +35,7 @@ def lk_optical_flow(videopath):
 
     plt.ion()
     fig = plt.figure()
-    mag_fig = plt.figure()
+    # mag_fig = plt.figure()
     max_mag = 10
 
 
@@ -89,6 +89,7 @@ def lk_optical_flow(videopath):
         print(mag)
 
         ret, frame = cap.read()
+    cap.release()
 
 
 
@@ -108,3 +109,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     lk_optical_flow(args.video)
+
+    cv2.destroyAllWindows()
